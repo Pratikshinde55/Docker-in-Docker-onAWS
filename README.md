@@ -63,6 +63,8 @@ Step 5-
 
 
       All docker command run in myDinD that 'Docker inside Docker'
+       
+        
         # docker ps
         # docker images
         # docker pull docker
@@ -71,7 +73,9 @@ Step 5-
 
 Step 6-
       We also launch Docker in Containerized docker {DOCKER 3 inside DOCKER 2}
-        #docker run -dit --privileged --name myDinD2 docker
+       
+        
+        # docker run -dit --privileged --name myDinD2 docker
         # docker exec -it myDinD2 sh
 
 ![Screenshot 2024-02-13 161159](https://github.com/Pratikshinde55/Docker-in-Docker/assets/145910708/03ded95f-78d3-4178-a174-2146ab465d75)
