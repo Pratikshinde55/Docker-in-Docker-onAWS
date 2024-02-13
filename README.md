@@ -5,8 +5,8 @@ What is DOCKER IN DOCKER?(DinD)
   Docker-in-Docker means we can run Docker containers inside another Docker container.
 
 In Docker world One process communicate with Other process is because od "Unix Socket"
-  # cd /run/containerd/
-  # ls -i
+    # cd /run/containerd/
+    # ls -i
     
 There are two ways to create Docker in Docker     
          1. Lauch Container by sharing Host Docker Socket
@@ -51,7 +51,8 @@ Step 5-
       Here docker installed inside container (check in myDinD)
         #docker info
 
-        ![Screenshot 2024-02-13 160449](https://github.com/Pratikshinde55/Docker-in-Docker/assets/145910708/63f5a542-22d6-459b-92ae-e59003633ebc)
+ ![Screenshot 2024-02-13 160449](https://github.com/Pratikshinde55/Docker-in-Docker/assets/145910708/6df91207-4833-4ad1-9e08-32f5c895616d)
+
 
       All docker command run in myDinD that 'Docker inside Docker'
         # docker ps
