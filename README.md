@@ -10,9 +10,12 @@ In Docker world One process communicate with Other process is because od "Unix S
     # ls -i
     
 There are two ways to create Docker in Docker     
-         1. Lauch Container by sharing Host Docker Socket
+     1. Lauch Container by sharing Host Docker Socket
            (-v /run/containerd/:/run/containerd/ )
-         2. Give all capabilities to the container (--privileged)
+        
+         
+         
+     2. Give all capabilities to the container (--privileged)
                  --privileged  <> Give extended privileges to this container
 
 What is Privileged capabilities:
