@@ -27,15 +27,21 @@ Prerequisite: AWS account
  
 Step 1-
       install and Start docker service   {DOCKER 1st}
+        
+         
          #yum install docker -y
          #systemctl start docker
 
 Step 2-
       pull docker image (Docker provides a pre-created image for Docker inside Docker)
+       
+        
         #docker pull docker
 
 step 3-
       lauch new container by adding all capabilities to the container
+       
+        
         #docker run -dit --privileged --name myDinD docker
         
 ![Screenshot 2024-02-13 155059](https://github.com/Pratikshinde55/Docker-in-Docker/assets/145910708/f3fd7600-aa03-4830-8380-dc48c2c91dfc)
@@ -43,13 +49,15 @@ step 3-
 Step 4-
       Attach new container(myDinD) in that container install docker again.
                                                 {DOCKER 2 inside DOCKER1}
+        
         # docker exec -it myDinD sh
 
 ![Screenshot 2024-02-13 155842](https://github.com/Pratikshinde55/Docker-in-Docker/assets/145910708/6a0d7150-cb53-47a2-974a-5189da2b77e2)
 
 Step 5-
       Here docker installed inside container (check in myDinD)
-        #docker info
+       
+        # docker info
 
  ![Screenshot 2024-02-13 160449](https://github.com/Pratikshinde55/Docker-in-Docker/assets/145910708/6df91207-4833-4ad1-9e08-32f5c895616d)
 
