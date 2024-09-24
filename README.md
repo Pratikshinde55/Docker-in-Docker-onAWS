@@ -74,8 +74,12 @@ All docker command run in myDinD that is 'Docker inside Docker'
 ![Screenshot 2024-02-13 160549](https://github.com/Pratikshinde55/Docker-in-Docker/assets/145910708/de5d86f7-d97a-4682-b0a3-012eedacb2b2)
 
 ### Step-6: [We also launch Docker in Containerized Docker] {DOCKER 3 inside DOCKER 2}
-       
+Command for run Container with --privileged:
+
       docker run -dit --privileged --name myDinD2 docker
+
+Command for attach or get shell terminal of running Container:
+
       docker exec -it myDinD2 sh
 
 ![Screenshot 2024-02-13 161159](https://github.com/Pratikshinde55/Docker-in-Docker/assets/145910708/03ded95f-78d3-4178-a174-2146ab465d75)
