@@ -86,7 +86,9 @@ Command for attach or get shell terminal of running Container:
 
 ### Step-7: [Here All DinD setup Done]
 1.Docker host  (Docker 1)
+
 2.myDinD container (Docker 2 inside Docker 1)
+
 3.myDinD2 container (Docker 3 inside Docker 2)
 
 ![Screenshot 2024-02-13 162357](https://github.com/Pratikshinde55/Docker-in-Docker/assets/145910708/c0dfea90-e5a4-4bf7-aae4-a974d1a839e1)
